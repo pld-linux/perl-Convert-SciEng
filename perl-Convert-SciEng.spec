@@ -4,13 +4,12 @@
 Summary:	Convert::SciEng perl module
 Summary(pl):	Modu³ perla Convert::SciEng
 Name:		perl-Convert-SciEng
-Version:	0.90
-Release:	9
+Version:	0.91
+Release:	1
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	2a120452cd9d4a8031ba3eba052fc72c
-Patch0:		%{name}-paths.patch
+# Source0-md5:	21f183f91cb184844499927373255ca4
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRequires:	perl-devel >= 5.6
 BuildArch:	noarch
@@ -26,7 +25,6 @@ liczby, np.: 2.5u --> 2.5e-6 25K --> 2.5e4
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
-%patch -p1
 
 %build
 %{__perl} Makefile.PL \
