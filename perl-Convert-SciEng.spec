@@ -1,12 +1,12 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Convert
 %define	pnam	SciEng
-Summary:	Convert::SciEng perl module
-Summary(pl):	Modu³ perla Convert::SciEng
+Summary:	Convert::SciEng Perl module - convert 'numbers' with scientific postfixes
+Summary(pl):	Modu³ Perla Convert::SciEng - konwersja liczb z naukowymi koñcówkami
 Name:		perl-Convert-SciEng
 Version:	0.91
 Release:	1
-License:	GPL
+License:	unknown
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	21f183f91cb184844499927373255ca4
@@ -17,11 +17,11 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 Convert::SciEng converts 'numbers' with scientific postfixes to real
-numbers, i.e. 2.5u --> 2.5e-6 25K --> 2.5e4
+numbers, i.e. 2.5u --> 2.5e-6 25K --> 2.5e4.
 
 %description -l pl
 Convert::SciEng konwertuje 'liczby' z naukowymi koñcówkami na prawdziwe
-liczby, np.: 2.5u --> 2.5e-6 25K --> 2.5e4
+liczby, np.: 2.5u --> 2.5e-6 25K --> 2.5e4.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
