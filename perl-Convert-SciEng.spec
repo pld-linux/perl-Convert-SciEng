@@ -30,7 +30,7 @@ liczby, np.: 2.5u --> 2.5e-6 25K --> 2.5e4
 
 %build
 %{__perl} Makefile.PL \
-	INSTALLDIRS=vendor 
+	INSTALLDIRS=vendor
 %{__make}
 
 %install
