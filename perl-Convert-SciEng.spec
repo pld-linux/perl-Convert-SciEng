@@ -1,12 +1,11 @@
+%include	/usr/lib/rpm/macros.perl
 %define	pdir	Convert
 %define	pnam	SciEng
-%include	/usr/lib/rpm/macros.perl
 Summary:	Convert-SciEng perl module
 Summary(pl):	Modu³ perla Convert-SciEng
 Name:		perl-Convert-SciEng
 Version:	0.90
-Release:	7
-
+Release:	8
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -25,7 +24,7 @@ Convert-SciEng konwertuje 'liczby' z naukowymi koñcówkami na prawdziwe
 liczby, np.: 2.5u --> 2.5e-6 25K --> 2.5e4
 
 %prep
-%setup -q -n Convert-SciEng-%{version}
+%setup -q -n %{pdir}-%{pnam}-%{version}
 %patch -p1
 
 %build
