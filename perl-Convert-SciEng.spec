@@ -1,6 +1,6 @@
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Convert
-%define	pnam	SciEng
+%define		pdir	Convert
+%define		pnam	SciEng
 Summary:	Convert::SciEng Perl module - convert 'numbers' with scientific postfixes
 Summary(pl):	Modu³ Perla Convert::SciEng - konwersja liczb z naukowymi koñcówkami
 Name:		perl-Convert-SciEng
