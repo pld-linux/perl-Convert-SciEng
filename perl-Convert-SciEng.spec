@@ -4,11 +4,11 @@ Summary(pl):	Modu³ perla Convert-SciEng
 Name:		perl-Convert-SciEng
 Version:	0.90
 Release:	3
-Copyright:	GPL
+License:	GPL
 Group:		Development/Languages/Perl
 Group(pl):	Programowanie/Jêzyki/Perl
-Source:		ftp://ftp.perl.org/pub/CPAN/modules/by-module/Convert/Convert-SciEng-%{version}.tar.gz
-Patch:		perl-Convert-SciEng-paths.patch
+Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/Convert/Convert-SciEng-%{version}.tar.gz
+Patch0:		perl-Convert-SciEng-paths.patch
 BuildRequires:	rpm-perlprov >= 3.0.3-16
 BuildRequires:	perl >= 5.005_03-14
 %requires_eq	perl
@@ -16,16 +16,12 @@ Requires:	%{perl_sitearch}
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Convert-SciEng converts 'numbers' with scientific postfixes to real numbers,
-i.e.
-2.5u --> 2.5e-6
-25K  --> 2.5e4
+Convert-SciEng converts 'numbers' with scientific postfixes to real
+numbers, i.e. 2.5u --> 2.5e-6 25K --> 2.5e4
 
 %description -l pl
-Convert-SciEng konwertuje 'liczby' z naukowymi koñcówkami na prawdziwe liczby,
-np.:
-2.5u --> 2.5e-6
-25K  --> 2.5e4
+Convert-SciEng konwertuje 'liczby' z naukowymi koñcówkami na prawdziwe
+liczby, np.: 2.5u --> 2.5e-6 25K --> 2.5e4
 
 %prep
 %setup -q -n Convert-SciEng-%{version}
