@@ -29,7 +29,7 @@ liczby, np.: 2.5u --> 2.5e-6 25K --> 2.5e4
 
 %build
 perl Makefile.PL
-make
+%{__make}
 
 %install
 rm -rf $RPM_BUILD_ROOT
