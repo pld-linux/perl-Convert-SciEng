@@ -1,8 +1,0 @@
---- Convert-SciEng-0.90/demo.pl~	Fri Apr 17 22:54:18 1998
-+++ Convert-SciEng-0.90/demo.pl	Sat Oct  2 21:42:30 1999
-@@ -1,4 +1,4 @@
--#!/usr/local/bin/perl -w
-+#!/usr/bin/perl -w
- 
- use strict;
- use blib;
