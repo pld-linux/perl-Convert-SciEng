@@ -28,7 +28,7 @@ liczby, np.: 2.5u --> 2.5e-6 25K --> 2.5e4
 %patch -p1
 
 %build
-perl Makefile.PL
+%{__perl} Makefile.PL
 %{__make}
 
 %install
