@@ -1,8 +1,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Convert
 %define	pnam	SciEng
-Summary:	Convert-SciEng perl module
-Summary(pl):	Modu³ perla Convert-SciEng
+Summary:	Convert::SciEng perl module
+Summary(pl):	Modu³ perla Convert::SciEng
 Name:		perl-Convert-SciEng
 Version:	0.90
 Release:	8
@@ -16,11 +16,11 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Convert-SciEng converts 'numbers' with scientific postfixes to real
+Convert::SciEng converts 'numbers' with scientific postfixes to real
 numbers, i.e. 2.5u --> 2.5e-6 25K --> 2.5e4
 
 %description -l pl
-Convert-SciEng konwertuje 'liczby' z naukowymi koñcówkami na prawdziwe
+Convert::SciEng konwertuje 'liczby' z naukowymi koñcówkami na prawdziwe
 liczby, np.: 2.5u --> 2.5e-6 25K --> 2.5e4
 
 %prep
