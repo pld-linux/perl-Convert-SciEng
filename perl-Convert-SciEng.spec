@@ -2,7 +2,7 @@
 %define		pdir	Convert
 %define		pnam	SciEng
 Summary:	Convert::SciEng Perl module - convert 'numbers' with scientific postfixes
-Summary(pl.UTF-8):   Moduł Perla Convert::SciEng - konwersja liczb z naukowymi końcówkami
+Summary(pl.UTF-8):	Moduł Perla Convert::SciEng - konwersja liczb z naukowymi końcówkami
 Name:		perl-Convert-SciEng
 Version:	0.91
 Release:	1
