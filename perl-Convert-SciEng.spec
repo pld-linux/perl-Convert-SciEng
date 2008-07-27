@@ -5,7 +5,7 @@ Summary:	Convert::SciEng Perl module - convert 'numbers' with scientific postfix
 Summary(pl.UTF-8):	Moduł Perla Convert::SciEng - konwersja liczb z naukowymi końcówkami
 Name:		perl-Convert-SciEng
 Version:	0.91
-Release:	1
+Release:	2
 License:	unknown
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
